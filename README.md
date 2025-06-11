@@ -34,3 +34,65 @@ npm run build
 
 
 ### 프로젝트 구조
+ai-marketing-frontend/
+├── public/
+│   ├── images/
+│   │   ├── logo192.png
+│   │   ├── millie.png
+│   │   ├── netflix.png
+│   │   ├── liker.png
+│   │   ├── collector.png
+│   │   └── addict.png
+│   ├── index.html
+│   ├── manifest.json
+│   └── runtime-env.js
+├── src/
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Header.js
+│   │   │   ├── Layout.js
+│   │   │   └── LoadingSpinner.js
+│   │   ├── auth/
+│   │   │   ├── LoginForm.js
+│   │   │   └── RegisterForm.js
+│   │   ├── dashboard/
+│   │   │   ├── Dashboard.js
+│   │   │   ├── SalesChart.js
+│   │   │   └── ActivityList.js
+│   │   ├── store/
+│   │   │   ├── StoreInfo.js
+│   │   │   └── MenuList.js
+│   │   ├── content/
+│   │   │   ├── ContentCreate.js
+│   │   │   ├── ContentList.js
+│   │   │   └── ContentDetail.js
+│   │   └── recommendation/
+│   │       └── AIRecommendation.js
+│   ├── pages/
+│   │   ├── LoginPage.js
+│   │   ├── RegisterPage.js
+│   │   ├── DashboardPage.js
+│   │   ├── StoreManagePage.js
+│   │   ├── MenuManagePage.js
+│   │   ├── ContentCreatePage.js
+│   │   ├── ContentListPage.js
+│   │   └── AIRecommendationPage.js
+│   ├── services/
+│   │   ├── api.js
+│   │   ├── authService.js
+│   │   ├── storeService.js
+│   │   ├── contentService.js
+│   │   └── recommendationService.js
+│   ├── hooks/
+│   │   ├── useAuth.js
+│   │   └── useApi.js
+│   ├── utils/
+│   │   ├── formatters.js
+│   │   └── validators.js
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
+├── package.json
+├── .gitignore
+└── README.md
