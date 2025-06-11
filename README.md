@@ -31,3 +31,6 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+### 프로젝트 구조
